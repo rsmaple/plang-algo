@@ -9,6 +9,7 @@
     "format": "oxfmt src"
   },
   "devDependencies": {
+    "@types/node": "^25.3.0",
     "oxfmt": "^0.34.0",
     "tsx": "^4.19.0",
     "typescript": "^5.9.3",
