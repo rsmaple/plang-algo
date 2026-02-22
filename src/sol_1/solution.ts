@@ -1,4 +1,4 @@
-export function solution(s: string) {
+export function solution(s: string): boolean {
   const stack: string[] = [];
 
   for (let char of s) {
