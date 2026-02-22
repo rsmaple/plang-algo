@@ -1,0 +1,15 @@
+{
+  "name": "plang-algo",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rspack dev",
+    "build": "rspack build",
+    "preview": "rspack preview"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^1.7.6",
+    "@rspack/core": "^1.7.6",
+    "typescript": "^5.9.3"
+  }
+}
