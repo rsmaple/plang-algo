@@ -1,36 +1,27 @@
-# Rspack project
+# plang-algo
 
 ## Setup
 
-Install the dependencies:
-
-```bash
+```zsh
 npm install
 ```
 
-## Get started
+## Test
 
-Start the dev server, and the app will be available at <http://localhost:8080>.
-
-```bash
-npm run dev
+```zsh
+npx vitest
 ```
 
-Build the app for production:
+전체 테스트 실행:
 
-```bash
-npm run build
+```zsh
+npx vitest run
 ```
 
-Preview the production build locally:
+개별 문제 테스트 실행:
 
-```bash
-npm run preview
+```zsh
+npx vitest run src/sol_1   # sol_1만 실행
+npx vitest run src/sol_2   # sol_2만 실행
+npx vitest run src/sol_3   # sol_3만 실행
 ```
-
-## Learn more
-
-To learn more about Rspack, check out the following resources:
-
-- [Rspack documentation](https://rspack.rs) - explore Rspack features and APIs.
-- [Rspack GitHub repository](https://github.com/web-infra-dev/rspack) - your feedback and contributions are welcome!
